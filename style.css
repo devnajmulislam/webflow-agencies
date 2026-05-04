@@ -1,10 +1,97 @@
 /* FONTS */
 
 /* RESET */
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* GENERAL STYLES */
+body {}
+
+.header-section {
+    background-image: url('./assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 70vh;
+}
+
+.header-section nav {
+    max-width: 1140px;
+    margin: 0 auto;
+    min-height: 150px;
+    height: 150px;
+
+    padding: 50px 0px;
+}
+
+.nav-container {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container .nav-title {
+    color: #4E47FF;
+
+    font-weight: 900;
+    font-size: 2.125rem;
+    text-transform: uppercase;
+}
+
+.nav-container a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 12px 36px;
+
+    background-color: #4E47FF;
+}
+
+.btn-a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.nav-container .nav-btn {
+    width: 132px;
+    /* height: 148px; */
+}
+
+.hero-section {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-section .hero-title {
+    color: #252432;
+    font-weight: 700;
+    font-size: 4.063rem;
+
+    margin-top: 160px;
+}
+
+.hero-section .hero-btn {
+    display: inline-block;
+    width: 174px;
+    height: 48px;
+
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
