@@ -311,6 +311,12 @@ body {}
     .action-section {
         padding: 0px 10px;
     }
+
+    /* REVIEW */
+    .review-section .reviews-container {
+        gap: 10px;
+        padding: 0 10px;
+    }
 }
 
 /* MOBILE */
@@ -335,6 +341,11 @@ body {}
 
     .action-img-container img {
         width: 100%;
+    }
+
+    /* REVIEW */
+    .review-section .reviews-container {
+        flex-wrap: wrap;
     }
 
 }
@@ -392,6 +403,13 @@ body {}
         text-align: center;
     }
 
-    /*  */
+    /* REVIEW */
+    .review-section .reviews-container {
+        flex-direction: column;
+    }
+
+    .reviews-container .review {
+        margin-bottom: 10px;
+    }
 
 }
