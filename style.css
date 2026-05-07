@@ -341,7 +341,7 @@ body {}
 .focus-section img {
     width: 100%;
     border-radius: 48px;
-    
+
 }
 
 
@@ -400,6 +400,11 @@ body {}
         flex-wrap: wrap;
     }
 
+    /* FOCUS */
+    .focus-section {
+        padding: 0px 10px;
+    }
+
 }
 
 /* SMALL MOBILE */
@@ -416,7 +421,7 @@ body {}
     }
 
     .action-content-container .action-description {
-
+        padding: 0px;
         font-size: 1rem;
     }
 
@@ -448,7 +453,7 @@ body {}
     }
 
     .joined-section .joined-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 700;
         color: #252432;
         margin: 40px 0px;
@@ -462,6 +467,19 @@ body {}
 
     .reviews-container .review {
         margin-bottom: 10px;
+    }
+
+    .review-section .review-title {
+        font-size: 1.8rem;
+    }
+
+    .review .review-title {
+        font-size: 1.4rem;
+    }
+
+    /* FOCUS */
+    .focus-section .focus-title {
+        font-size: 1.8rem;
     }
 
 }
