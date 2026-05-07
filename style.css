@@ -77,6 +77,10 @@ body {}
     /* height: 148px; */
 }
 
+.main-section {
+    background-color: #F5F8FF;
+}
+
 .hero-section {
     max-width: 900px;
     margin: 0 auto;
@@ -105,7 +109,8 @@ body {}
     max-width: 1140px;
     min-height: 328px;
 
-    margin: 116px auto;
+    margin: 0px auto;
+    padding-top: 116px;
 
     display: flex;
     justify-content: space-between;
