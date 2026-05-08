@@ -349,6 +349,69 @@ body {}
 
 }
 
+/* FORM SECTION STYLES */
+
+
+.form-section {
+    max-width: 1140px;
+    margin: 90px auto 14px auto;
+    min-height: 630px;
+    padding: 70px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-section .form-title {
+    font-weight: 700;
+    font-size: 6.063rem;
+    color: #000000;
+
+    flex: 1;
+}
+
+.form-section .form-input-container {
+    flex: 1;
+
+}
+
+/* common form styels */
+.form-input-title {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #000000;
+
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-input-field {
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+
+    padding: 20px 30px;
+    border: 1px solid #D6DDED;
+    background-color: #FFFFFF;
+
+    outline: none;
+    display: block;
+}
+
+.form-input-container .form-text-area {
+    resize: vertical;
+}
+
+.form-input-container .form-btn {
+    width: 500px;
+    min-height: 60px;
+    outline: none;
+    border: none;
+}
+
+
+
 
 /* ======================= */
 /* RESPONSIVE STYLES */
